@@ -32,18 +32,6 @@ For announcements about new releases, follow the
 mailing list. Our documentation also tracks [breaking
 changes](https://docs.flutter.dev/release/breaking-changes) across releases.
 
-## Terms of service
-
-The Flutter tool may occasionally download resources from Google servers. By
-downloading or using the Flutter SDK, you agree to the Google Terms of Service:
-https://policies.google.com/terms
-
-For example, when installed from GitHub (as opposed to from a prepackaged
-archive), the Flutter tool will download the Dart SDK from Google servers
-immediately when first run, as it is used to execute the `flutter` tool itself.
-This will also occur when Flutter is upgraded (e.g. by running the `flutter
-upgrade` command).
-
 ## About Flutter
 
 We think Flutter will help you create beautiful, fast apps, with a productive,
@@ -82,39 +70,6 @@ and see the results instantly without restarting your app or losing its state.
 
 [![Hot reload animation][]][Hot reload]
 
-### Extensible and open model
-
-Flutter works with any development tool (or none at all), and also includes
-editor plug-ins for both [Visual Studio Code] and [IntelliJ / Android Studio].
-Flutter provides [tens of thousands of packages][Flutter packages] to speed your
-development, regardless of your target platform. And accessing other native code
-is easy, with support for both FFI ([on Android][Android FFI], [on iOS][iOS FFI],
-[on macOS][macOS FFI], and [on Windows][Windows FFI]) as well as
-[platform-specific APIs][platform channels].
-
-Flutter is a fully open-source project, and we welcome contributions.
-Information on how to get started can be found in our
-[contributor guide](CONTRIBUTING.md).
-
-[flutter.dev]: https://flutter.dev
-[Build Status - Cirrus]: https://api.cirrus-ci.com/github/flutter/flutter.svg
-[Build status]: https://cirrus-ci.com/github/flutter/flutter/master
-[Discord instructions]: https://github.com/flutter/flutter/wiki/Chat
-[Discord badge]: https://img.shields.io/discord/608014603317936148
-[Twitter handle]: https://img.shields.io/twitter/follow/flutterdev.svg?style=social&label=Follow
-[Twitter badge]: https://twitter.com/intent/follow?screen_name=flutterdev
-[layered architecture]: https://docs.flutter.dev/resources/inside-flutter
-[architectural overview]: https://docs.flutter.dev/resources/architectural-overview
-[widget catalog]: https://flutter.dev/widgets/
-[Cupertino]: https://docs.flutter.dev/development/ui/widgets/cupertino
-[Material]: https://docs.flutter.dev/development/ui/widgets/material
-[Skia]: https://skia.org/
-[Dart platform]: https://dart.dev/
-[Hot reload animation]: https://github.com/flutter/website/blob/main/src/assets/images/docs/tools/android-studio/hot-reload.gif?raw=true
-[Hot reload]: https://docs.flutter.dev/development/tools/hot-reload
-[Visual Studio Code]: https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
-[IntelliJ / Android Studio]: https://plugins.jetbrains.com/plugin/9212-flutter
-[Flutter packages]: https://pub.dev/flutter
 [Android FFI]: https://docs.flutter.dev/development/platform-integration/android/c-interop
 [iOS FFI]: https://docs.flutter.dev/development/platform-integration/ios/c-interop
 [macOS FFI]: https://docs.flutter.dev/development/platform-integration/macos/c-interop
